@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter Article Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        .news-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        .news-item {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background: white;
+        }
+        .news-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+        }
+        .news-item-content {
+            padding: 15px;
+        }
+        .news-item h2 {
+            margin-top: 0;
+        }
+        .news-item p {
+            margin-bottom: 10px;
+            text-align: justify;
+        }
+        .subscribe-button {
+            display: block;
+            width: 100%;
+            max-width: 200px;
+            margin: 20px auto;
+            padding: 10px;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: center;
+            color: white;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+        }
+        .call-to-action {
+            text-align: center;
+            margin-top: 40px;
+        }
+        .headt {
+            border: 5px solid brown;
+            border-radius: 20%;
+            margin-bottom: 20px;
+            padding: 10px;
+            text-align: center;
+        }
+        .button-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .next-button, .back-button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: center;
+            color: white;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .next-button:hover, .back-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="headt">
+        <h1>Newsletter Highlights</h1>
+    </div>
+
+    <div class="news-container">
+        
+        <div class="news-item">
+            <img src="image1.jpg" alt="Tech Breakthroughs">
+            <div class="news-item-content">
+                <h2>Tech Breakthroughs</h2>
+                <p>Google DeepMind shared new advancements made in the field of robotics and vision language models (VLMs) on Thursday. The artificial intelligence (AI) research division of the tech giant has been working with advanced vision models to develop new capabilities in robots. In a new study, DeepMind highlighted that using Gemini 1.5 Pro and its long context window has now enabled the division to make breakthroughs in navigation and real-world understanding of its robots. Earlier this year, Nvidia also unveiled new AI technology that powers advanced capabilities in humanoid robots.</p>
+            </div>
+        </div>
+        <div class="news-item">
+            <img src="image2.jpg" alt="Health Trends">
+            <div class="news-item-content">
+                <h2>Health Trends</h2>
+                <p>Researchers at the University of Alabama in Birmingham have discovered a promising method to prevent dyskinesia, a debilitating side effect of long-term Parkinson’s treatment.
+                    By treating dyskinesia as a “bad motor memory” and blocking the protein Activin A, they managed to halt the development of these uncontrollable movements in mouse models.
+                    This breakthrough could extend the effectiveness of current Parkinson’s treatments and significantly improve patients’ quality of life..</p>
+            </div>
+        </div>
+        <div class="news-item">
+            <img src="image3.jpg" alt="Financial Insights">
+            <div class="news-item-content">
+                <h2>Financial Insights</h2>
+                <p> Ahead of the presentation of Union Budget 2024 on July 23, the Finance Ministry is all set to hold the critically-important ‘halwa ceremony’ at North Block. The tradition is part of the Budget preparation and holds a great significance. There is a lot of anticipation among key stakeholders around major policy changes in the first full budget of Modi 3.0.
+
+                    On Thursday, Prime Minister Narendra Modi, Finance Minister Nirmala Sitharaman and several prominent economists held a high-level meeting to finalise the nitty-gritties of the Union Budget.</p>
+            </div>
+        </div>
+        <div class="news-item">
+            <img src="image4.jpg" alt="Fashion Buzz">
+            <div class="news-item-content">
+                <h2>Fashion Buzz</h2>
+                <p>Joey King's fashion statements aren't too far behind. Joey King's appearance on Watch What Happens Live was bold, edgy and sophisticated for giggles and chatter. The talented actress turned heads with her outfit of the night mainly monochrome consisting of a sheer pink top worn over a crisscross bralette and a suede midi skirt within the same colour palette but duller and red siren heels. For her petite frame, she made a bold fashion choice that definitely left an impact on the viewers. The delicate top worn over the bralette shows the outfit's duality showcasing edgy and sophistication.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="button-container">
+        <form action="r2.html">
+            <button type="submit" class="next-button">Next</button>
+        </form>
+    </div>
+
+    <div style="text-align: center; margin-top: 20px;">
+        <button class="subscribe-button">Subscribe Now</button>
+    </div>
+
+    <p style="text-align: center;">We're flexible and committed to bringing you the best content. Help us improve by <a href="#">sharing your feedback</a>.</p>
+
+</body>
+</html>
